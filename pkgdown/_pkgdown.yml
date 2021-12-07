@@ -7,6 +7,7 @@ template:
       index_name: gtsummary
     ganalytics: UA-145876596-1
     bootswatch: flatly
+    bootstrap: 5
 development:
   mode: auto
   version_label: default
