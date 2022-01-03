@@ -10,13 +10,13 @@
   "codeRepository": "https://github.com/ddsjoberg/gtsummary",
   "issueTracker": "https://github.com/ddsjoberg/gtsummary/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "1.5.0.9000",
+  "version": "1.5.0.9024",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -350,6 +350,19 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "sandwich",
+      "name": "sandwich",
+      "version": ">= 3.0.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=sandwich"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "scales",
       "name": "scales",
       "provider": {
@@ -462,7 +475,7 @@
       "@type": "SoftwareApplication",
       "identifier": "broom.helpers",
       "name": "broom.helpers",
-      "version": ">= 1.4.0",
+      "version": ">= 1.5.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -630,7 +643,7 @@
   ],
   "releaseNotes": "https://github.com/ddsjoberg/gtsummary/blob/master/NEWS.md",
   "fileSize": "0KB",
-  "contIntegration": "https://app.codecov.io/gh/ddsjoberg/gtsummary?branch=master",
+  "contIntegration": "https://app.codecov.io/gh/ddsjoberg/gtsummary?branch=main",
   "relatedLink": [
     "https://CRAN.R-project.org/package=gtsummary",
     "https://www.danieldsjoberg.com/gtsummary/"
@@ -698,6 +711,5 @@
         }
       }
     }
-  ],
-  "readme": "https://github.com/ddsjoberg/gtsummary/blob/master/README.md"
+  ]
 }
